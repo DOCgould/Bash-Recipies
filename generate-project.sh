@@ -4,7 +4,6 @@
 # $Revision:  $
 # $Author:  $
 # $HeadURL:  $
-# Copyright (c) 2022 Innoflight, Inc. All Rights Reserved
 # ==========================================================================
 # ==========================================================================
 # Date       Author      Description
