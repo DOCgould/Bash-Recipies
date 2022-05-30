@@ -5,5 +5,4 @@ There are a great number of bash scripts that I make on the daily basis that wou
 So I plan on filling this repo with bash scripts that I use to make my projects for easy quick 'n dirty templates.
 
 # generate-project.sh
-This script is a quick way to make a template CMAKE project directory - with an automatically generated CMakeLists.txt Ideally with pre-filled `MACRO` and `FUNCTION` definitions.
-*this still needs to be filled out* so once that's done Ill ideally update this script. 
+This script build a directory using the first argument to the script - because this is generic, it will link to all sources and all headers in include, and nothing else - if this is not the intended default configuration, you must either modify the generate script, or the CMakeLists.txt after the generation has occurred. 
