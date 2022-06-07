@@ -59,7 +59,7 @@ function gen_proj_files()
 function gen_proj_dirs()
 {
     echo "[ info ] Generating Project $PROJECT_NAME Directories ..."
-    mkdir {include,src,apps,tests,docs,extern,scripts}
+    mkdir {include,src,build,tests,docs,extern,scripts}
 }
 
 function gen_proj()
