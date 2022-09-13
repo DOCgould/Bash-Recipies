@@ -6,3 +6,6 @@ So I plan on filling this repo with bash scripts that I use to make my projects 
 
 # generate-project.sh
 This script build a directory using the first argument to the script - because this is generic, it will link to all sources and all headers in include, and nothing else - if this is not the intended default configuration, you must either modify the generate script, or the CMakeLists.txt after the generation has occurred. 
+
+# generate-library.sh
+This script builds directories using the first argument to the script - because this is generic, it will link to all sources and all headers in include, and nothing else - if this is not the intended default configuration, you must either modify the generate script, or the CMakeLists.txt after the generation has occurred.
